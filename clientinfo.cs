@@ -37,7 +37,7 @@ namespace DNWS
       String lang = request.getPropertyByKey("accept-language");
       String encoding = request.getPropertyByKey("accept-encoding");
       sb.Append("<html><body><h1>Client:</h1>");
-      sb.Append("Client IP address: " + IP[0]);
+      sb.Append("Client IP : " + IP[0]);
       sb.Append("<br>Client Port: " + IP[1]);
       sb.Append("<br>Browser Information: " + browser);
       sb.Append("<br>Accept Language: " + lang);
